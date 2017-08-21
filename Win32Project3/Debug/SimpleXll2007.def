@@ -1,0 +1,29 @@
+LIBRARY
+LIBRARY SimpleXll2007.xll
+
+
+EXPORTS
+
+       ; Standard XLL functions
+
+       xlAutoOpen
+
+       xlAutoClose
+
+       xlAutoRegister12
+
+       xlAutoAdd
+
+       xlAutoRemove
+
+       xlAddInManagerInfo12
+
+      
+
+       ; UDFs
+
+       SumTwo
+
+       GetString
+
+       GetChars

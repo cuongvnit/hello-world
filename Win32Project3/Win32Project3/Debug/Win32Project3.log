@@ -1,0 +1,18 @@
+﻿Build started 8/18/2017 3:43:40 PM.
+     1>Project "c:\Users\admin\documents\visual studio 2013\Projects\Win32Project3\Win32Project3\Win32Project3.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Win32Project3.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\2010 Office System Developer Resources\Excel2010XLLSDK\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D WIN32PROJECT3_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt xlFunction.cpp
+         xlFunction.cpp
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(c:\users\admin\documents\visual studio 2013\Projects\Win32Project3\Debug\SimpleXll2007.dll) does not match the Linker's OutputFile property value (c:\users\admin\documents\visual studio 2013\Projects\Win32Project3\Debug\SimpleXll2007.xll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1194,5): warning MSB8012: TargetExt(.dll) does not match the Linker's OutputFile property value (.xll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\admin\documents\visual studio 2013\Projects\Win32Project3\Debug\\SimpleXll2007.xll" /INCREMENTAL /NOLOGO /LIBPATH:"D:\2010 Office System Developer Resources\Excel2010XLLSDK\lib" "c:\Users\admin\documents\visual studio 2013\Projects\Win32Project3\Win32Project3\lib\xlcall32.lib" "c:\Users\admin\documents\visual studio 2013\Projects\Win32Project3\Win32Project3\lib\frmwrk32.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"SimpleXll2007.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\admin\documents\visual studio 2013\Projects\Win32Project3\Debug\SimpleXll2007.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\admin\documents\visual studio 2013\Projects\Win32Project3\Debug\SimpleXll2007.lib" /MACHINE:X86 /DLL Debug\stdafx.obj
+         Debug\UDFs.obj
+         Debug\xlFunction.obj
+         Win32Project3.vcxproj -> c:\users\admin\documents\visual studio 2013\Projects\Win32Project3\Debug\SimpleXll2007.dll
+     1>Done Building Project "c:\Users\admin\documents\visual studio 2013\Projects\Win32Project3\Win32Project3\Win32Project3.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.06
